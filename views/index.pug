@@ -1,0 +1,19 @@
+extends ./layout.pug
+
+block title
+  | Higgidy competition and newsletter signup
+
+block content
+  h1 We wanted to invite you to lunch
+
+  p
+    | ...but we simply couldn't borrow enough chairs. So instead we're giving lunch away in the form of 100s of pies and quiches every month. Just sign up to our newsletter for your chance to
+    span win!
+
+  form( method="POST" action="/")
+    fieldset
+      label( for="name" ) Name
+      input( id="name" placeholder="Name" )
+      label( for="email" ) Email Address
+      input( id="email" placeholder="Email Address" )
+    button Sign me up!

@@ -1,0 +1,22 @@
+{
+  "name": "higgidy_signup_microsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec.js",
+    "start": "nodemon start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.1.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1",
+    "webpack": "^1.13.3"
+  }
+}
